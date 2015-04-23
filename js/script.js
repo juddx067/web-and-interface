@@ -71,5 +71,17 @@ $(document).ready(function() {
 		$("#wauwatosa_profile").mouseleave(function() {
 			$("#wauwatosa_hover").fadeTo("fast", 0);
 	}); 
+
+//glyph animation
+var rotation = function (){
+   $("#flower1").rotate({
+      angle:0, 
+      animateTo:360, 
+      callback: rotation
+   });
+}
+
+    rotation();
+
 		
 });
