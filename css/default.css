@@ -131,7 +131,7 @@ p {
 #madison_profile {
 	width: 500px;
 	position: relative;
-	left: 800px;
+	left: 60%;
 }
 
 
@@ -141,7 +141,7 @@ p {
 	display: none;
 	background: url('../images/stripe2.png');
 	position: relative;
-	top: -1000px;
+	top: -900px;
 	margin: 0 auto;
 }
 
@@ -155,10 +155,10 @@ p {
 }
 
 #madison_tilt_glyph {
-	width: 500px;
+	width: 100%;
 	position: relative;
 	top: -300px;
-	left: 800px;
+	left: 60%
 }
 
 #madison2 {
@@ -213,7 +213,9 @@ p {
 	width: 700px;
 	position: relative;
 	top: -225px;
-	left: 405px;
+	padding-left: 50px;
+	margin: 0 auto;
+
 }
 
 #lincoln1{
@@ -242,7 +244,8 @@ p {
 
 #brookfield_profile {
 	width: 500px;
-	float: right;
+	position: relative;
+	left: 62%;
 }
 
 #brookfield_hover {
@@ -251,7 +254,7 @@ p {
 	display: none;
 	background: url('../images/stripe2.png');
 	position: relative;
-	top: -490px;
+	top: -640px;
 	margin: 0 auto;
 }
 
@@ -265,9 +268,10 @@ p {
 }
 
 #brookfield_tilt_glyph {
-	width: 700px;
+	width: 100%;
 	position: relative;
-	left: 890px;
+	left: 58%;
+	top: -220px;
 }
 
 #brookfield1{
@@ -353,27 +357,35 @@ p {
 #sussex_tilt_glyph {
 	width: 700px;
 	position: relative;
-	left: 400px;
+	margin: auto;
+	padding-left: 200px;
 	top: -200px;
 }
 
 #sussex1{
-	width: 50px;
+	width: 40px;
 
 }
 
 #sussex2 {
-	width: 100px;
-
+	width: 75px;
+	position: relative;
+	top: -75px;
+	left: -20px;
 }
 
 #sussex3{
 	width: 75px;
-
+	position: relative;
+	left: 300px;
+	top: -40px;
 }
 
 #sussex4{
-	width: 75px;
+	width: 50px;
+	position: relative;
+	left: 295px;
+	top: 40px;
 
 }
 
@@ -411,6 +423,31 @@ p {
 	position: relative;
 	top: 20px;
 	left: 20px;
+}
+
+#sacramento_tilt_glyph {
+	width: 700px;
+	position: relative;
+	top: -250px;
+	left: 40px;
+}
+
+#sacramento1 {
+	width: 40px;
+
+}
+
+#sacramento2{
+	width: 55px;
+	position: relative;
+	top: -30px;
+
+}
+
+#sacramento3{
+	width: 60px;
+	position: relative;
+	left: 250px;
 }
 
 /* Sacramento Glyphs */
@@ -466,6 +503,29 @@ p {
 	top: 20px;
 	left: 20px;
 }
+
+#wauwatosa_tilt_glyph {
+	width: 700px;
+	position: relative;
+	top: -185px;
+	left: 20px;
+}
+
+#wauwatosa1 {
+	width: 50px;
+	position: relative;
+	top: -275px;
+
+}
+
+#wauwatosa2{
+	width: 80px;
+	position: relative;
+	left: 425px;
+
+}
+
+
 /* Footer */
 #footer {
 	height: 100px;
